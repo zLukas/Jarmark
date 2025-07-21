@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectConfig>
+    <ResourceReserve/>
+    <Solver>
+        <SolverBndMap>
+            <BindMap MUri="devicepackage/0/17" Proxy="app/DIGITAL_IO/2/__pin_hwres_port_pin"/>
+            <BindMap MUri="devicepackage/0/23" Proxy="app/SPI_MASTER/0/__pin_hwres_port_pad_spi_sclkout"/>
+            <BindMap MUri="peripheral/usic/0/channel/0" Proxy="app/SPI_MASTER/0/hwres_usic_channel"/>
+            <BindMap MUri="peripheral/scu/0/dco/2" Proxy="app/CLOCK_XMC1/0/hwres_dco"/>
+            <BindMap MUri="devicepackage/0/24" Proxy="app/SPI_MASTER/0/__pin_hwres_port_pad_spi_mosi_1"/>
+            <BindMap MUri="port/p/0/pad/15" Proxy="app/SPI_MASTER/0/hwres_port_pad_spi_mosi_1"/>
+            <BindMap MUri="port/p/0/pad/5" Proxy="app/DIGITAL_IO/0/hwres_port_pin"/>
+            <BindMap MUri="devicepackage/0/1" Proxy="app/SPI_MASTER/0/__pin_hwres_port_pad_spi_mosi_0"/>
+            <BindMap MUri="port/p/0/pad/6" Proxy="app/DIGITAL_IO/2/hwres_port_pin"/>
+            <BindMap MUri="port/p/2/pad/0" Proxy="app/SPI_MASTER/0/hwres_port_pad_spi_mosi_0"/>
+            <BindMap MUri="port/p/0/pad/0" Proxy="app/SPI_MASTER/0/hwres_port_pad_spi_ss_0"/>
+            <BindMap MUri="peripheral/scu/0/ccu/config" Proxy="app/CLOCK_XMC1/0/hwres_clkcntrlunit"/>
+            <BindMap MUri="port/p/0/pad/7" Proxy="app/DIGITAL_IO/1/hwres_port_pin"/>
+            <BindMap MUri="devicepackage/0/16" Proxy="app/DIGITAL_IO/0/__pin_hwres_port_pin"/>
+            <BindMap MUri="devicepackage/0/15" Proxy="app/SPI_MASTER/0/__pin_hwres_port_pad_spi_ss_0"/>
+            <BindMap MUri="port/p/0/pad/14" Proxy="app/SPI_MASTER/0/hwres_port_pad_spi_sclkout"/>
+            <BindMap MUri="devicepackage/0/7" Proxy="app/DIGITAL_IO/3/__pin_hwres_port_pin"/>
+            <BindMap MUri="devicepackage/0/18" Proxy="app/DIGITAL_IO/1/__pin_hwres_port_pin"/>
+            <BindMap MUri="port/p/2/pad/10" Proxy="app/DIGITAL_IO/3/hwres_port_pin"/>
+        </SolverBndMap>
+    </Solver>
+</ProjectConfig>

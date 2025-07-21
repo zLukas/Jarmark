@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project MotherSystem_Version="" Name="termometer" Path="D:\XMC\workspace\termometer">
+    <COMPILER>
+        <Name>ARM_GCC_HOME</Name>
+        <Version/>
+        <Memory_Model/>
+    </COMPILER>
+    <DEVICE>
+        <Sales_Code>XMC1100-Q024x0064</Sales_Code>
+        <Description/>
+    </DEVICE>
+    <Generated_Files>
+        <Source_Files>
+            <Source_File>
+                <File_Name>clock_xmc1.c</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC1\clock_xmc1.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>clock_xmc1_conf.c</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC1\clock_xmc1_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>digital_io.c</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>digital_io_conf.c</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>spi_master.c</File_Name>
+                <Path>\Dave\Generated\SPI_MASTER\spi_master.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>spi_master_conf.c</File_Name>
+                <Path>\Dave\Generated\SPI_MASTER\spi_master_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+        </Source_Files>
+        <Header_Files>
+            <Header_File>
+                <File_Name>clock_xmc1.h</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC1\clock_xmc1.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>clock_xmc1_conf.h</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC1\clock_xmc1_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>clock_xmc1_extern.h</File_Name>
+                <Path>\Dave\Generated\CLOCK_XMC1\clock_xmc1_extern.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>digital_io.h</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>digital_io_conf.h</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>digital_io_extern.h</File_Name>
+                <Path>\Dave\Generated\DIGITAL_IO\digital_io_extern.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>spi_master.h</File_Name>
+                <Path>\Dave\Generated\SPI_MASTER\spi_master.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>spi_master_conf.h</File_Name>
+                <Path>\Dave\Generated\SPI_MASTER\spi_master_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>spi_master_extern.h</File_Name>
+                <Path>\Dave\Generated\SPI_MASTER\spi_master_extern.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+        </Header_Files>
+        <Library_Files/>
+        <Assembly_Files/>
+    </Generated_Files>
+    <Include_Path>
+        <Path>\Libraries\XMCLib\inc</Path>
+        <Path>\Libraries\CMSIS\Include</Path>
+        <Path>\Libraries\CMSIS\Infineon\XMC1100_series\Include</Path>
+        <Path/>
+        <Path>\Dave\Generated</Path>
+        <Path>\Libraries</Path>
+        <Path>\oled\SSD1306</Path>
+        <Path>\Xmc1100</Path>
+        <Path>\Dave\Generated\DIGITAL_IO</Path>
+        <Path>\Dave\Generated\SPI_MASTER</Path>
+        <Path>\oled</Path>
+        <Path>\Communication</Path>
+        <Path>\Sensor\BME280_Bosh_driver</Path>
+        <Path>\Sensor</Path>
+        <Path>\</Path>
+    </Include_Path>
+    <Preprocessor_Symbols>
+        <Assembler_Symbol>XMC1100_Q024x0064=</Assembler_Symbol>
+        <Compiler_Symbol>XMC1100_Q024x0064=</Compiler_Symbol>
+    </Preprocessor_Symbols>
+</Project>
