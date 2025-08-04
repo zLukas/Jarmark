@@ -1,0 +1,21 @@
+---
+- hosts: retro-pi
+  gather_facts: no
+  become: yes
+  vars: 
+    SSH_KEYS_TMP: "/tmp/ssh_keys"
+  tasks:
+  - name: Copy public keys to remote
+    copy:
+      src: "./keys/"
+      dest: "{{ SSH_KEYS_TMP }}/"
+      mode: '0644'
+
+  - name: create users with ssh access
+    ssh_access_users:
+      ssh_keys_dir: "{{ SSH_KEYS_TMP }}/"
+
+  - name: Remove temporary directory
+    file:
+      path: "{{ SSH_KEYS_TMP }}"
+      state: absent
