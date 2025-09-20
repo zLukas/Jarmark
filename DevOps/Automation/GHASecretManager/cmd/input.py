@@ -12,8 +12,8 @@ def parse_args() -> dict:
         "--config-file",
         type=str,
         required=True,
-        help="Path to the configuration file, defaul ts to ~/.gha/config.ini",
-    ) 
+        help="Path to the configuration file (env var GHA_SECRET_MANAGER_CONFIG_FILE), defaults to ~/.gha/config.ini ",
+    )
     parser.add_argument(
         "-a",
         "--action",
