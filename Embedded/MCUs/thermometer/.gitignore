@@ -1,9 +1,0 @@
-!.gitignore
-
-/Dave/Model
-/Debug
-/Startup
-/.settings
-/Libraries
-*.ld
-solver.log

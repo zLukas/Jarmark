@@ -1,7 +1,0 @@
----
-- hosts: rack
-  gather_facts: yes
-  roles:
-    - rpi/setup
-    - gha-runners
-...
