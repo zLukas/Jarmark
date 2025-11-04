@@ -1,0 +1,9 @@
+[submodule "retro-pi"]
+	path = retro-pi
+	url = git@github.com:zLukas/retro-pi.git
+[submodule "Cloud-infrastructure"]
+	path = Cloud-infrastructure
+	url = git@github.com:zLukas/Cloud-infrastructure.git
+[submodule "CKS-crunch"]
+	path = CKS-crunch
+	url = https://github.com/zLukas/CKS-crunch.git
